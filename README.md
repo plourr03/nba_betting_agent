@@ -10,11 +10,15 @@ Bobby Bets is an AI-powered NBA analyst and sports betting advisor that provides
 - Personalized experience with user memory system
 - Command-line interface for quick analysis
 
+## Preferred Python Version 
+
+It is recommended to use **Python 3.9.13** or any later version.
+
 ## Setup and Installation
 
 1. Clone this repository
-2. Install the required dependencies:
-3. Open project in vs code
+2. Open project in vs code
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
