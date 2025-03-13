@@ -20,6 +20,8 @@ warnings.filterwarnings("ignore", message="Using default output format 'v1.0' is
 
 from mem0 import MemoryClient
 
+OPEN_AI_API = '{PUT OPEN AI API KEY HERE}'
+
 # Initialize Mem0 client
 MEM0_API_KEY = "m0-qwD2FjEl5Y4ex0RCXkSBv9e5tfsRPYLASr7pFgzs"
 os.environ["MEM0_API_KEY"] = MEM0_API_KEY
@@ -1295,7 +1297,7 @@ class DateAdjustmentHandler(BaseCallbackHandler):
 # Create the agent with tools
 llm = ChatOpenAI(
     model="gpt-4o", 
-    api_key='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'
+    api_key=OPEN_AI_API
 )
 tools = [fetch_team_schedule, extract_team_names, fetch_team_stats, fetch_betting_trends, analyze_matchup_data, manage_memory]
 
