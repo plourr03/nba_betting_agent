@@ -114,9 +114,7 @@ Bobby Bets remembers your previous interactions to provide more personalized rec
 
 ## User IDs
 
-Each user gets a unique ID to track their conversation history. You can:
-- Use the automatically generated ID
-- Set a custom ID by entering your username when prompted
+Each user Set a custom ID by entering your username when prompted
 
 ## Technologies Used
 
