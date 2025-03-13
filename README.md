@@ -23,7 +23,7 @@ pip install -r requirements.txt
 4. Set up API keys:
    - You'll need API keys for OpenAI, FireCrawl, and Mem0
    - I've left my API keys in the code for your testing purposes
-   - Note: These keys will be deactivated at the end of the week
+   - Note: These keys will be deactivated at the end of the week (3/16)
    - For production use, replace them with your own API keys or use environment variables
 
 ## Usage
