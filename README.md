@@ -45,12 +45,12 @@ This will start the command-line interface where you can interact with Bobby Bet
 You can ask Bobby Bets about:
 
 1. **Team Matchups**: 
-   - "How do the Lakers and Warriors match up?"
+   - "How do the Lakers and Warriors match up on Jan, 5, 2025?"
    - "Analyze Celtics vs Bucks for their game tomorrow"
 
 2. **Betting Insights**:
-   - "What are the betting trends for Knicks vs Heat?"
-   - "Should I bet on the over for Suns vs Mavericks?"
+   - "What are the betting trends for Knicks vs Heat on March 17th, 2025?"
+   - "Should I bet on the over for Suns vs Mavericks on March 9th, 2025?"
 
 ## Architecture Overview
 
