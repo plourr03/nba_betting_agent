@@ -29,6 +29,7 @@ pip install -r requirements.txt
    - I've left my API keys in the code for your testing purposes
    - Note: These keys will be deactivated at the end of the week (3/16)
    - For production use, replace them with your own API keys or use environment variables
+   - **IMPORTANT** - you'll need to add your own OpenAI API key on line 23 of bobby_bets_agent.py 
 
 ## Usage
 
