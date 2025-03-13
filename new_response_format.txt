@@ -1,0 +1,27 @@
+        # Combine everything for the final response
+        final_response = f"""
+# {team1.title()} vs {team2.title()} Breakdown
+
+Hey, I looked into this {team1.title()}-{team2.title()} matchup for you. Here's what I found:
+
+## The Call
+**{predicted_winner}** to win this one. I'm feeling {confidence_level.lower()} about this ({win_probability} confidence).
+
+## Why I'm Taking {predicted_winner}
+{key_factors_section}
+
+## Inside Scoop
+{notable_insights_section}
+
+## The Numbers That Matter
+- {team1.title()}: {team1_record} record | {team1_ppg} PPG
+- {team2.title()}: {team2_record} record | {team2_ppg} PPG
+
+## Betting Angle
+{betting_recs_section}
+
+## Game Details
+{schedule_info.split('URL:')[0].strip()}
+
+Let me know if you want me to dig deeper on anything else!
+""" 
