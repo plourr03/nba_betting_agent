@@ -23,12 +23,12 @@ from mem0 import MemoryClient
 OPEN_AI_API = '{PUT OPEN AI API KEY HERE}'
 
 # Initialize Mem0 client
-MEM0_API_KEY = "m0-qwD2FjEl5Y4ex0RCXkSBv9e5tfsRPYLASr7pFgzs"
+MEM0_API_KEY = ""
 os.environ["MEM0_API_KEY"] = MEM0_API_KEY
 memory_client = MemoryClient()
 
 # Set up the FireCrawl with provided API key
-FIRECRAWL_API_KEY = "fc-98fd4caa098e4c9e96e7d2cbe51259c2"
+FIRECRAWL_API_KEY = ""
 
 # Dictionary mapping team names to their ESPN team codes
 TEAM_CODES = {
